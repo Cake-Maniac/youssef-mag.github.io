@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+
+.centered
+{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+
+}
+
+.foot
+{
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
+
+.card
+{
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cardTitle
+{
+    font-family: Montserrat;
+    font-size: xx-large;
+    font-style: italic;
+    padding-left: 5%;
+    line-height: 90%;
+    padding-right: 5%;
+    color: hsl(212, 21%, 14%);
+}
+
+.cardText1
+{
+    font-family: Fraunces;
+    color: hsl(228, 12%, 48%);
+    padding-left: 5%;
+    padding-right: 5%;
+    letter-spacing: 5px;
+
+
+}
+
+.cardText2
+{
+    font-family: Fraunces;
+    color: hsl(228, 12%, 48%);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cardImg
+{
+    float: left;
+    width:50%;
+}
+
+.cardButton
+{
+    background-color: hsl(158, 36%, 37%);
+    color:#ffffff;
+    height: 10vh;
+    width:75%;
+    padding: 5%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    border-style: hidden;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.cardButton:hover
+{
+    background-color: hsl(160, 39%, 34%);
+}
+
+@font-face {
+
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserra);
+}
+
+@font-face {
+
+    font-family: Fraunces;
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
